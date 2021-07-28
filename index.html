@@ -13,60 +13,51 @@
 
 <body>
     <!-- header start -->
-    <header>
+    <header class="container my-3">
         <!-- nav var start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light">
 
-            <div class="container">
+            <div class="d-flex">
                 <!-- logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="" ">
+                    <img src="images/logo.png" alt="">
                 </a>
                 <!-- ajaira -->
                 <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- search bar -->
-                    <form class="d-flex ms-4">
-                        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search Here"
-                            aria-label="Search">
-                        <button class="btn btn-outline-warning ms-2" type="submit">Search</button>
-                    </form>
-                    <!-- menu -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">shoes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">backpack</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">subscribe</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">about us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">contract us</a>
-                            </li>
+                </button>
 
-                        </ul>
+                <!-- menu -->
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about us</a>
+                        </li>
+                    </ul>
 
-                    </div>
+                </div>
             </div>
         </nav>
         <!-- slide start   -->
-        <section class="container mt-5 ">
+        <section class="container mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!-- itram 1 -->
-                    <div class="carousel-item active rounded p-5 ">
+                    <div class="carousel-item active rounded">
                         <div class="row d-flex align-items-center bg-info bg-gradient">
                             <div class="col-lg-6">
                                 <h1>Samsung Headphone</h1>
@@ -135,7 +126,32 @@
         </section>
     </header>
     <main>
-
+        <!-- catagory -->
+        <section class="container">
+            <div class="row g-4">
+                <!-- catagory 1 -->
+                <div class="col-4">
+                    <div class="p-3 border bg-success d-flex align-items-center    justify-content-between rounded-3">
+                        <h1 class="text-white col-6">Bags</h1>
+                        <img class="col-6" src="images/categories/bag.png">
+                    </div>
+                </div>
+                <!-- catagory 2 -->
+                <div class="col-4">
+                    <div class="p-3 border bg-warning d-flex align-items-center    justify-content-between rounded-3">
+                        <h1 class="text-white col-6">Shoes</h1>
+                        <img class="col-6" src="images/categories/shoes.png">
+                    </div>
+                </div>
+                <!-- catagory 3 -->
+                <div class="col-4">
+                    <div class="p-3 border bg-danger d-flex align-items-center    justify-content-between rounded-3">
+                        <h1 class="text-white col-6">Watch</h1>
+                        <img class="col-6" src="images/categories/watch.png">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
